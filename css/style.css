@@ -1,0 +1,78 @@
+/*Estilo para fundo da página*/
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column; /*colocar em coluna*/
+    justify-content: center; /*centraliza as caixas em horizontal*/
+    align-items: center; /*centraliza os itens no centro*/
+    height: 100vh;
+    margin: 0; /*0 tira as margens*/
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.logo img /*tamanho da imagem*/{
+    max-width: 150px;
+    height: auto;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 8px; /*arredondamento para as bordas*/
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /*sombra*/
+    padding: 20px; /*espaçamento interno*/
+    width: 300px; /*largura*/
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    background-color/*cor de fundo*/: #4CAF50;
+    color: white;
+    border: none; /*borda*/
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer; /*mudar cursor do mouse*/
+    font-size: 16px; /*tamanho da fonte*/
+    margin-top: 10px; /*criar margem a cima*/
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: #b90404;
+}
